@@ -1,0 +1,173 @@
+html,
+body,
+.banner {
+    height: 100%;
+}
+
+body {
+    background-color: #282828;
+}
+
+.navbar_transparente {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/banner52.jpg');
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 100vh;
+    background-position: 0 55%;
+    position: relative;
+}
+
+#titulo_banner {
+    padding-top: 100px;
+}
+
+.input_search {
+    min-height: 60px;
+    background-color: #282828;
+    border-radius: 12px;
+}
+
+.inputs {
+    padding: 10px 10px;
+}
+
+
+
+#header_filtro {
+    height: 30px;
+    margin-top: 20px;
+    background-color: #282828;
+    color: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-top: 2px;
+}
+
+#header_filtro span {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.titulos {
+    font-weight: 700;
+
+}
+
+.card_destaques {
+    background-color: #000 !important;
+    border-radius: 8px;
+    color: #fff;
+    height: 100%;
+}
+
+.card_body_especialistas{
+    padding-left: 5px !important;
+    padding-top: 10px !important;
+}
+
+.card_body_especialistas span{
+    padding-bottom: 10px;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.botao {
+    width: 100%;
+}
+
+.btn_ver_mais {
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+
+
+}
+
+.btn_ver_mais:hover {
+    background-color: #fff;
+    color: #282828;
+}
+
+
+.faixa{
+    background-color: #000;
+    min-height: 400px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.card_especialistas{
+    background-color: #000;
+    height: 100%;
+    color: #fff;
+}
+
+.especialistas_img{
+    height: 200px;
+
+
+
+}
+
+
+
+
+footer {
+    margin-top: 150px;
+    background-color: #333;
+    color: #fff;
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+}
+
+footer nav {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .container {
+        max-width: 100% !important;
+    }
+}
